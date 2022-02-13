@@ -7,7 +7,7 @@ import LogOutButton from "../Components/LogOutButton";
 const Post = () => {
   const [postData, setPostData] = useState();
   const sendData = (data) => {
-    setPostData([data]);
+    setPostData([...data]);
   };
 
   return (

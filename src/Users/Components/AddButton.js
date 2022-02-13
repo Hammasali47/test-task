@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Box, Button, TextareaAutosize, Modal } from "@mui/material";
 import { v4 as uuidv4 } from "uuid";
 
-// import Modal from "../Components/Modal";
-
 const style = {
   position: "absolute",
   top: "50%",
@@ -65,13 +63,6 @@ const AddButton = (props) => {
             style={{ width: 400 }}
           />
           <Button onClick={handleSubmit}>Submit</Button>
-          {/* <TextField></TextField> */}
-          {/* <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography> */}
         </Box>
       </Modal>
     </div>
