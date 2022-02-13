@@ -7,6 +7,17 @@ import SignIn from "./Users/Pages/SignIn";
 function App() {
   const routes = (
     <Switch>
+
+<Route
+        exact
+        path="/"
+        render={() => {
+            return <Redirect to="/signin" />;
+          
+        }}
+      />
+
+
       <Route
         exact
         path="/post"
